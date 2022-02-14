@@ -15,7 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: var(--fonts-got);
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 .container {
   max-width: 1200px;
@@ -118,17 +118,15 @@ body {
   display: none;
   transition: all ease 0.5s
 }
-.header__email{
+.hero__email{
   color: #fff;
-  position: relative;
-  bottom: -50px;
+  position: absolute;
+  bottom: -70px;
 }
 .active{
   background-image: url(../images/close-btn.svg);
   /* transition: all ease 0.5s */
 }
-
-
 
 
 
@@ -147,7 +145,8 @@ body {
 } */
 
  .hero{
-
+  position: relative;
+  padding-bottom: 100px ;
 }
 .hero__desc {
   width: 100%;
@@ -324,7 +323,7 @@ body {
 }
 .layer2{
   position: absolute;
-  right: 100px;
+  left: 500px;
   bottom: 100px;
   opacity: 0.5;
   font-size: 50px;
@@ -385,7 +384,6 @@ body {
   margin-bottom: 50px;
 }
 .about__link {
-
   padding: 10px 15px;
   border: 2px solid transparent;
   background-color:#EA4343;
@@ -398,13 +396,80 @@ body {
   color: #EA4343;
 }
 .about__img{
-  
+  max-width: 300px ;
 } 
+.about__img-2{
+  width: 100%;
+}
 .about__cube{
+  z-index: 1;
   position: absolute;
+  bottom: 50px;
+  left: 0;
   width: 200px;
   height: 200px;
-
+  background-color: var(--red-color);
+  animation: cube-Y 5s linear infinite both;
+}
+@keyframes cube-Y {
+  0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(20px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+.about__cube-2{
+  position: absolute;
+  right: -20px;
+  bottom: 20px;
+  width: 200px;
+  height: 200px;
+  background-color: var(--red-color);
+  animation: cube-X 5s linear infinite both;
+}
+@keyframes cube-X {
+  0%{
+    transform: translateX(0px);
+  }
+  50%{
+    transform: translateX(20px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
+}
+.about__second-img{
+  border-radius: 10px;
+  position: absolute;
+  bottom: -200px;
+}
+.about__first-img{
+  border-radius: 10px;
+}
+.about__cube-border{
+  position: absolute;
+  left: -100px;
+  bottom: 50px;
+  width: 250px;
+  height: 250px;
+  background-color: transparent;
+  border: 5px solid #fff;
+  animation: cube-border 5s linear infinite both;
+}
+@keyframes cube-border {
+  0%{
+    transform: translateX(0px);
+  }
+  50%{
+    transform: translateX(20px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
 }
 
 
