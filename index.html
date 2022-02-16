@@ -19,9 +19,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.min.js"
-        integrity="sha512-zKaK6G2LZC5YZTX0vKmD7xOwd1zrEEMal4zlTf5Ved/A1RrnW+qt8pWDfo7oz+xeChECS/P9dv6EDwwPwelFfQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    integrity="sha512-zKaK6G2LZC5YZTX0vKmD7xOwd1zrEEMal4zlTf5Ved/A1RrnW+qt8pWDfo7oz+xeChECS/P9dv6EDwwPwelFfQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
 </head>
 
 <body>
@@ -40,19 +40,19 @@
               <a href="#">Home</a>
             </li>
             <li class="header__item">
-              <a href="#">About</a>
+              <a href="#about">About</a>
             </li>
             <li class="header__item">
-              <a href="#">Service</a>
+              <a href="#skill">Profession</a>
             </li>
             <li class="header__item">
-              <a href="#">Blog</a>
+              <a href="#blog">Blog</a>
             </li>
             <li class="header__item">
               <a href="#">Portfolio</a>
             </li>
             <li class="header__item">
-              <a href="#">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
             <div id="cursor"></div>
           </ul>
@@ -62,16 +62,16 @@
     </div>
   </header>
   <script>
-    
+
 
   </script>
   <!-- ----------header--end--------- -->
   <!-- -----------hero-start------------ -->
 
   <section class="hero">
-    <i class='layer2 bx bxl-css3' data-speed="9" style='color:#7a7c7e'></i>
+    <!-- <i class='layer2 bx bxl-css3' data-speed="9" style='color:#7a7c7e'></i> -->
     <i class='layer1 bx bxl-html5' style='color:#7a7c7e'></i>
-    <i class='layer3 bx bxl-javascript' data-speed="-4" style='color:#7a7c7e'></i>
+    <!-- <i class='layer3 bx bxl-javascript' data-speed="-4" style='color:#7a7c7e'></i> -->
     <i class='layer4 bx bxl-react' data-speed="5" style='color:#7a7c7e'></i>
     <i class='layer5 bx bxl-bootstrap' data-speed="-7" style='color:#7a7c7e'></i>
     <div class="container">
@@ -80,8 +80,8 @@
           <span class="hero__span">Hello, I'm</span>
           <h1 class="hero__title">Arslonbek</h1>
           <div class="hero__works row">
-           
-          <p class="hero__creative">Creative <span class="type"></span> </p>
+
+            <p class="hero__creative">Creative <span class="type"></span> </p>
 
           </div>
           <div class="hero__massage">
@@ -107,48 +107,181 @@
       <a href="#"><i class='bx bxl-telegram'></i></a>
     </div>
   </section>
-  <section class="about">
+  <section id="about" class="about">
     <div class="container">
       <div class="about__main ">
         <div class="about__img col-sm-12 col-md-4 ">
           <img class="about__first-img" src="images/about-sec-img.jpg" alt="s" width="300" height="300">
-          <div class="about__cube" ></div>
+          <div class="about__cube"></div>
           <div class="about__cube-border"></div>
         </div>
-        <div class="about__desc col-sm-12 col-md-4">
+        <div class="about__desc col-md-4">
           <h4 class="about__title">About me</h4>
           <h2 class="about__name">I'm <span class="about__name-span">Arslonbek</span> <br>
             Web <span class="about__name-span">Designer</span><br>
             Based in Uzbekistan,Tashkent</h2>
-          <p class="about__text">Hi! My name is Aali Walker. I am UI/UX designer, and I'm very passionate and dedicated to my work.</p>
-          <p class="about__text bottom">With 20 years experience as a professional graphic designer and web developer, I have acquired the skills and knowledge necessary to make your project a success.</p>
-          <a class="about__link" href="#">Download CV <i class='bx bxs-download'></i></a>
+          <p class="about__text">Hi! My name is Aali Walker. I am UI/UX designer, and I'm very passionate and dedicated
+            to my work.</p>
+          <p class="about__text bottom">With 20 years experience as a professional graphic designer and web developer, I
+            have acquired the skills and knowledge necessary to make your project a success.</p>
+          <a target="_blank" class="about__link"
+            href="https://sites.google.com/view/arslonbek-radjabboyev/home">Download CV <i
+              class='bx bxs-download'></i></a>
         </div>
         <div class="about__img col-sm-12 col-md-4 ">
-          <div class="about__cube-2" ></div>
-          <img class="about__second-img" src="images/about-sec-img2.jpg" alt="" width="300" height="350" >
+          <div class="about__cube-2"></div>
+          <img class="about__second-img" src="images/about-sec-img2.jpg" alt="" width="300" height="340">
         </div>
       </div>
     </div>
   </section>
-  <section class="skills">
+  <section id="skill" class="skill">
     <div class="container">
       <div class="skill__main">
-        <div class="skill__desc col-sm-12 col-md-6">
-          <p>My skills</p>
-          <h2>You Can Imagine
+        <div class="col-sm-12 col-md-12 skill__desc">
+          <p class="skill__minititle">My skills</p>
+          <h2 class="skill__title">You Can Imagine
             I Can Do</h2>
-          <p>I am working on a professional, visually sophisticated and technologically proficient, responsive and multi-functional creative personal resume portfolio template Allan</p>
+          <p class="skill__text">I am working on a professional, visually sophisticated and technologically proficient,
+            responsive and multi-functional creative personal resume portfolio template Allan</p>
+          <p class="skill__minititle">I can code on Languages there: </p>
         </div>
-        <div class="skill__language">
-          
+
+        <div class="col-sm-12 skill__language language" style="background: rgb(29, 28, 28);border-radius: 10px;">
+          <i class='programs bx bxl-html5'></i>
+          <i class='programs bx bxl-css3'></i>
+          <i class='programs bx bxl-sass'></i>
+          <i class='programs bx bxl-bootstrap'></i>
+          <i class='programs bx bxl-python'></i>
+          <i class='programs bx bxl-javascript'></i>
+          <i class='programs bx bxl-react'></i>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="portfolio">
+    <div class="container">
+      <div class="portfolio__main">
+        <p class=" skill__minititle">Selected works</p>
+        <h2 class="portfolio__check skill__title">Check my portfolio</h2>
+        <div class="portfolio__box">
+          <ul class="portfolio__list">
+            <li class="  portfolio__item">
+              <div class="portfolio__link-background">
+                <img class="portfolio__name-project" src="images/cofferoaster.svg" alt="">
+                <a class="portfolio__link" href="#"><i class='bx bxl-github'></i></a>
+                <a class="portfolio__link" href="#"><i class='bx bx-expand-alt'></i></a>
+              </div>
+            </li>
+            <li class="  portfolio__item">
+              <div class="portfolio__link-background">
+                <img class="portfolio__name-project" src="images/cofferoaster.svg" alt="">
+                <a class="portfolio__link" href="#"><i class='bx bxl-github'></i></a>
+                <a class="portfolio__link" href="#"><i class='bx bx-expand-alt'></i></a>
+              </div>
+            </li>
+            <li class="  portfolio__item">
+              <div class="portfolio__link-background">
+                <img class="portfolio__name-project" src="images/cofferoaster.svg" alt="">
+                <a class="portfolio__link" href="#"><i class='bx bxl-github'></i></a>
+                <a class="portfolio__link" href="#"><i class='bx bx-expand-alt'></i></a>
+              </div>
+            </li>
+            <li class="  portfolio__item">
+              <div class="portfolio__link-background">
+                <img class="portfolio__name-project" src="images/cofferoaster.svg" alt="">
+                <a class="portfolio__link" href="#"><i class='bx bxl-github'></i></a>
+                <a class="portfolio__link" href="#"><i class='bx bx-expand-alt'></i></a>
+              </div>
+            </li>
+            <li class="  portfolio__item">
+              <div class="portfolio__link-background">
+                <img class="portfolio__name-project" src="images/cofferoaster.svg" alt="">
+                <a class="portfolio__link" href="#"><i class='bx bxl-github'></i></a>
+                <a class="portfolio__link" href="#"><i class='bx bx-expand-alt'></i></a>
+              </div>
+            </li>
+            <li class="  portfolio__item">
+              <div class="portfolio__link-background">
+                <img class="portfolio__name-project" src="images/cofferoaster.svg" alt="">
+                <a class="portfolio__link" href="#"><i class='bx bxl-github'></i></a>
+                <a class="portfolio__link" href="#"><i class='bx bx-expand-alt'></i></a>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
 
 
+  <!-- CONTACT-P -->
 
+  <section id="contact-p">
+    <span class="contact-p__a-box">
+
+    </span>
+    <div class="container">
+      <div id="contact" class="contact-p">
+        <span class="contact-p__entry text-center" id="convert">
+          Get in Touch
+        </span>
+        <h3 class="contact-p__title text-center">
+          Connect with Me with Confidence
+        </h3>
+        <div class="contact-p__box d-flex">
+          <div class="contact-p__info col-6">
+            <p class="contact-p__text">
+              Please fill out the form on this section to contact with me. Or call between 9:00 a.m. and 8:00 p.m. ET,
+              Monday through Friday
+            </p>
+            <ul class="contact-p__list p-0 m-0">
+              <li class="contact-p__item d-flex">
+                <div class="contact-p__img-box">
+                  <i class='bx bx-phone-call'></i>
+                </div>
+                <div class="contact-p__desc">
+                  <span class="contact-p__get-in-touch">
+                    Call me
+                  </span>
+                  <span class="contact-p__num" id="convert">
+                    +998 99 971 52 31
+                  </span>
+                </div>
+              </li>
+              <li class="contact-p__item d-flex">
+                <div class="contact-p__img-box">
+                  <i class='bx bxl-gmail'></i>
+                </div>
+                <div class="contact-p__desc">
+                  <span class="contact-p__get-in-touch">
+                    Email
+                  </span>
+                  <span class="contact-p__num contact-p__email" id="convert">
+                    arslanradjabov2002@gmail.com
+                  </span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="contact-p__form">
+            <form action="https://echo.htmlacademy.ru">
+              <input type="text" name="name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <input type="tel" name="phone" placeholder="Your Phone" required>
+              <textarea class="text-area" name="message" placeholder="Your message here"></textarea>
+              <button class="contact-p__btn d-flex align-items-center" type="submit" id="convert">
+                Sumbit Message
+                <i class='bx bxl-telegram'></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <script src="js/main.js"></script>
   <script src="js/header.js"></script>
 
@@ -161,8 +294,8 @@
       cursor.style.top = y + "px";
     });
   </script>
-  
-    <script src="js/particles.js"></script>
+
+  <script src="js/particles.js"></script>
 
 </body>
 

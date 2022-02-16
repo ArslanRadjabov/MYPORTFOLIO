@@ -41,16 +41,19 @@
   }
 
 @media screen and (max-width: 762px){
+    .hero{
+        padding: 100px 10px 0px 15px;
+    }
     .hero__allan{
-      font-size: 150px;
+      font-size: 100px;
     }
     .header__nav{
       position: fixed;
       top: 0;
       right: -150%;
-      width: 80%;
+      width: 60%;
       min-height: 100vh;
-      background-color: #EA4343;
+      background-color: #ea4343bd;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -60,6 +63,7 @@
     }
     .header__item a{
       font-size: 50px;
+      margin-bottom: 20px;
     }
     .header__menu{
       display: block;
@@ -69,8 +73,11 @@
       flex-direction: column;
       margin: 0 auto;
     }
+    .about__desc{
+        width: 80%;
+    }
     .about__img{
-        width: 100%;
+        display: none;
     }
   }
   .show{
@@ -80,12 +87,12 @@
   @media screen and (max-width: 576px){
     .container{
           padding: 0 10px;
-      }
+    }
     .header__menu{
         margin-right: 20px;
     }
     .hero__allan{
-      font-size: 120px;
+      font-size: 70px;
     }
     .header__item a{
         font-size: 30px;
@@ -106,14 +113,41 @@
         font-size: 35px;
     }
     .about__main{
-        
+        flex-direction: column;
     }
     .about__desc{
-        /* width: 2%; */
+        width: 80%;
     }
     .about__img{
         display: none;
     }
+    .skill__main{
+        flex-direction: column;
+    }
+    .skill__desc{
+        text-align: center;
+    }
+    .skill__language{
+    
+    }
+    .skill__text{
+
+    }
+    .language__item{
+        position: absolute;
+        animation: box 1000s linear infinite;
+    }
+    @keyframes box {
+        0% {
+          transform: rotateY(0deg);
+        }
+        50% {
+          transform: rotateY(360deg);
+        }
+        100% {
+          transform: rotateY(0deg);
+        }
+      }
 
   }
   .show{
