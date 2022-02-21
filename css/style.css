@@ -10,7 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: var(--fonts-got);
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   overflow-y: scroll;
   scroll-behavior: smooth;
 }
